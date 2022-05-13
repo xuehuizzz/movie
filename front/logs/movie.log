@@ -1,0 +1,181 @@
+2022/05/06 20:35:14.119 [I] [app.go:214]  http server Running on http://:8098
+2022/05/06 20:35:42.505 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    24.3409ms|   match|[44m GET     [0m /     r:/
+2022/05/06 20:35:45.376 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      846.1µs|   match|[44m GET     [0m /login   r:/login
+2022/05/06 20:35:45.428 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      599.3µs|   match|[44m GET     [0m /mini/login   r:/mini/login
+2022/05/06 20:35:54.074 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.3681ms|   match|[46m POST    [0m /login/do   r:/login/do
+2022/05/06 20:35:55.117 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    16.8944ms|   match|[44m GET     [0m /     r:/
+2022/05/06 20:35:55.254 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    41.4323ms|   match|[44m GET     [0m /static/data/user/1.jpg
+2022/05/06 20:41:12.047 [I] [app.go:214]  http server Running on http://:8098
+2022/05/06 20:41:20.286 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|     1.3946ms| nomatch|[44m GET     [0m /v 
+2022/05/06 20:41:20.304 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.3484ms|   match|[44m GET     [0m /static/index/css/style.css
+2022/05/06 20:41:20.305 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.6744ms|   match|[44m GET     [0m /static/index/css/fontAwesome.css
+2022/05/06 20:41:20.315 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0418ms|   match|[44m GET     [0m /static/index/img/404bg.jpg
+2022/05/06 20:41:20.315 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0585ms|   match|[44m GET     [0m /static/index/js/jquery-3.3.1.min.js
+2022/05/06 20:41:20.559 [D] [router.go:969]  |      127.0.0.1|[43m 404 [0m|      654.7µs| nomatch|[44m GET     [0m /favicon.ico
+2022/05/06 20:41:21.767 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    22.5709ms|   match|[44m GET     [0m /     r:/
+2022/05/06 20:41:21.779 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.759ms|   match|[44m GET     [0m /static/index/css/extra.chunk.css
+2022/05/06 20:41:21.779 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      506.8µs|   match|[44m GET     [0m /static/index/js/jquery-3.4.1.min.js
+2022/05/06 20:41:21.779 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.777ms|   match|[44m GET     [0m /static/index/css/app.chunk.css
+2022/05/06 20:41:21.789 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/index/js/foot.js
+2022/05/06 20:41:21.812 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      954.9µs|   match|[44m GET     [0m /static/index/img/TB1settkpY7gK0jSZKzXXaikpXa-72-72.png
+2022/05/06 20:41:21.812 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|         76µs|   match|[44m GET     [0m /static/index/img/TB1_tJykAT2gK0jSZPcXXcKkpXa-72-72.png
+2022/05/06 20:41:21.813 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      507.8µs|   match|[44m GET     [0m /static/index/img/TB1_KFvkAP2gK0jSZPxXXacQpXa-72-72.png
+2022/05/06 20:41:21.814 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/index/img/TB1ahlukvb2gK0jSZK9XXaEgFXa-72-72.png
+2022/05/06 20:41:21.816 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      523.2µs|   match|[44m GET     [0m /static/index/img/TB1_WUAtVY7gK0jSZKzXXaikpXa-80-80.png
+2022/05/06 20:41:21.817 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/index/img/TB1ksVth7T2gK0jSZPcXXcKkpXa-48-48.png
+2022/05/06 20:41:21.822 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      913.2µs|   match|[44m GET     [0m /static/index/img/TB1GcxvhYj1gK0jSZFOXXc7GpXa-48-48.png
+2022/05/06 20:41:21.822 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/index/img/TB1Zslqh.D1gK0jSZFGXXbd3FXa-48-48.png
+2022/05/06 20:41:21.822 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      565.1µs|   match|[44m GET     [0m /static/data/new/kenan.jfif
+2022/05/06 20:41:21.822 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      565.1µs|   match|[44m GET     [0m /static/data/new/labixiaoxin.jfif
+2022/05/06 20:41:21.823 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0726ms|   match|[44m GET     [0m /static/data/new/zhonghuaxiaozi.jfif
+2022/05/06 20:41:21.827 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      521.1µs|   match|[44m GET     [0m /static/data/new/quanyecha.jfif
+2022/05/06 20:41:21.824 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.5938ms|   match|[44m GET     [0m /static/data/new/wangqiuwangzi.jfif
+2022/05/06 20:41:21.829 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      527.3µs|   match|[44m GET     [0m /static/data/new/jinglingbaokemeng.jfif
+2022/05/06 20:41:21.830 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        521µs|   match|[44m GET     [0m /static/data/new/maohelaoshu.jfif
+2022/05/06 20:41:21.830 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/data/new/borenzhuan.jfif
+2022/05/06 20:41:21.831 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      530.4µs|   match|[44m GET     [0m /static/data/new/shouhutianxin.jfif
+2022/05/06 20:41:21.834 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.1589ms|   match|[44m GET     [0m /static/data/new/meimei.png
+2022/05/06 20:41:21.834 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      526.9µs|   match|[44m GET     [0m /static/data/new/OIP-C.jfif
+2022/05/06 20:41:21.836 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      939.3µs|   match|[44m GET     [0m /static/data/new/likeqin.jfif
+2022/05/06 20:41:21.837 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      530.5µs|   match|[44m GET     [0m /static/index/img/index_top_0.png
+2022/05/06 20:41:21.837 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      566.4µs|   match|[44m GET     [0m /static/data/new/quanyecha1.jpg
+2022/05/06 20:41:21.841 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      506.1µs|   match|[44m GET     [0m /static/index/img/index_top_1.png
+2022/05/06 20:41:21.841 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      531.5µs|   match|[44m GET     [0m /static/data/new/haizeiwang1.jfif
+2022/05/06 20:41:21.843 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.7749ms|   match|[44m GET     [0m /static/data/new/jinglingbaokemeng1.jfif
+2022/05/06 20:41:21.845 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      230.3µs|   match|[44m GET     [0m /static/index/img/index_top_2.png
+2022/05/06 20:41:21.847 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      796.8µs|   match|[44m GET     [0m /static/data/new/zhonghuaxiaozi1.jfif
+2022/05/06 20:41:21.849 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      942.1µs|   match|[44m GET     [0m /static/data/new/logo.png
+2022/05/06 20:41:21.851 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      580.2µs|   match|[44m GET     [0m /static/index/img/index_top_3.png
+2022/05/06 20:41:21.852 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      533.4µs|   match|[44m GET     [0m /static/index/img/index_top_4.png
+2022/05/06 20:41:21.852 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      533.4µs|   match|[44m GET     [0m /static/data/new/567-1.jfif
+2022/05/06 20:41:21.856 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      522.7µs|   match|[44m GET     [0m /static/index/img/index_top_5.png
+2022/05/06 20:41:21.856 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      522.7µs|   match|[44m GET     [0m /static/data/new/canghaihengliu1.jfif
+2022/05/06 20:41:21.857 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0596ms|   match|[44m GET     [0m /static/data/new/maohelaoshu1.jfif
+2022/05/06 20:41:21.858 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/index/img/index_top_6.png
+2022/05/06 20:41:21.859 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      532.3µs|   match|[44m GET     [0m /static/data/new/labixiaoxin.jpg
+2022/05/06 20:41:21.861 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      277.7µs|   match|[44m GET     [0m /static/index/img/index_top_7.png
+2022/05/06 20:41:21.865 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      3.223ms|   match|[44m GET     [0m /static/data/new/wangqiuwangzi1.jfif
+2022/05/06 20:41:21.866 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      3.755ms|   match|[44m GET     [0m /static/data/new/xingjibaobei1.jfif
+2022/05/06 20:41:21.869 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.1033ms|   match|[44m GET     [0m /static/data/new/ashuai.jfif
+2022/05/06 20:41:21.870 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.6955ms|   match|[44m GET     [0m /static/data/new/28.png
+2022/05/06 20:41:21.871 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.6178ms|   match|[44m GET     [0m /static/data/new/000.jpg
+2022/05/06 20:41:21.873 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      547.7µs|   match|[44m GET     [0m /static/data/new/zhenhunjie.jfif
+2022/05/06 20:41:21.875 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.7268ms|   match|[44m GET     [0m /static/data/new/29.png
+2022/05/06 20:41:21.876 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.7351ms|   match|[44m GET     [0m /static/data/new/31.png
+2022/05/06 20:41:21.880 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      852.2µs|   match|[44m GET     [0m /static/data/new/32.png
+2022/05/06 20:41:21.880 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      532.7µs|   match|[44m GET     [0m /static/data/new/chaoshenxueyuan.jfif
+2022/05/06 20:41:21.881 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.7915ms|   match|[44m GET     [0m /static/data/new/33.png
+2022/05/06 20:41:21.964 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      229.5µs|   match|[44m GET     [0m /static/index/img/favicon.ico
+2022/05/06 20:41:23.559 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      459.7µs|   match|[44m GET     [0m /login   r:/login
+2022/05/06 20:41:23.589 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        357µs|   match|[44m GET     [0m /static/index/css/layout.css
+2022/05/06 20:41:23.589 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      529.1µs|   match|[44m GET     [0m /static/index/css/main_70d8d4cb.css
+2022/05/06 20:41:23.590 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0638ms|   match|[44m GET     [0m /static/index/js/layer/layer.js
+2022/05/06 20:41:23.610 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.2946ms|   match|[44m GET     [0m /static/index/js/layer/theme/default/layer.css
+2022/05/06 20:41:23.611 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      531.6µs|   match|[44m GET     [0m /mini/login   r:/mini/login
+2022/05/06 20:41:23.624 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      1.895ms|   match|[44m GET     [0m /static/index/img/bg.jpg
+2022/05/06 20:41:23.632 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.3426ms|   match|[44m GET     [0m /static/index/css/mini_login_index.css
+2022/05/06 20:41:23.632 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0857ms|   match|[44m GET     [0m /static/index/css/mini_login_youku.css
+2022/05/06 20:49:21.854 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0509ms|   match|[44m GET     [0m /register   r:/register
+2022/05/06 20:49:21.867 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      389.5µs|   match|[44m GET     [0m /static/index/css/register.css
+2022/05/06 20:49:21.877 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|        418µs|   match|[44m GET     [0m /static/index/img/youku_logo.png
+2022/05/06 20:49:21.877 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|           0s|   match|[44m GET     [0m /static/index/img/stepline.png
+2022/05/06 20:49:21.913 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.3021ms|   match|[44m GET     [0m /static/index/img/icons_6305647d.png
+2022/05/06 20:49:23.539 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0017ms|   match|[44m GET     [0m /login   r:/login
+2022/05/06 20:49:23.578 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      658.8µs|   match|[44m GET     [0m /mini/login   r:/mini/login
+2022/05/06 20:49:50.898 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    16.3967ms|   match|[44m GET     [0m /     r:/
+2022/05/13 18:48:30.818 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:32.350 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:34.364 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:36.295 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:38.245 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:40.193 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:42.110 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:44.063 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:46.627 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:49.089 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:51.590 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:54.002 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:56.392 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:58.346 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|   105.9872ms|   match|[44m GET     [0m /     r:/
+2022/05/13 18:48:58.480 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:48:59.260 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|   422.1276ms|   match|[44m GET     [0m /static/index/css/extra.chunk.css
+2022/05/13 18:48:59.261 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|   329.7593ms|   match|[44m GET     [0m /static/index/css/app.chunk.css
+2022/05/13 18:48:59.322 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|   390.4625ms|   match|[44m GET     [0m /static/index/js/jquery-3.4.1.min.js
+2022/05/13 18:48:59.332 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     36.234ms|   match|[44m GET     [0m /static/index/js/foot.js
+2022/05/13 18:48:59.352 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0021ms|   match|[44m GET     [0m /static/index/img/TB1settkpY7gK0jSZKzXXaikpXa-72-72.png
+2022/05/13 18:48:59.356 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     9.0015ms|   match|[44m GET     [0m /static/index/img/TB1_tJykAT2gK0jSZPcXXcKkpXa-72-72.png
+2022/05/13 18:48:59.360 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.9991ms|   match|[44m GET     [0m /static/index/img/TB1_WUAtVY7gK0jSZKzXXaikpXa-80-80.png
+2022/05/13 18:48:59.364 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9979ms|   match|[44m GET     [0m /static/index/img/TB1ksVth7T2gK0jSZPcXXcKkpXa-48-48.png
+2022/05/13 18:48:59.370 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    18.9992ms|   match|[44m GET     [0m /static/index/img/TB1ahlukvb2gK0jSZK9XXaEgFXa-72-72.png
+2022/05/13 18:48:59.375 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|         27ms|   match|[44m GET     [0m /static/index/img/TB1_KFvkAP2gK0jSZPxXXacQpXa-72-72.png
+2022/05/13 18:48:59.401 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     31.508ms|   match|[44m GET     [0m /static/index/img/TB1GcxvhYj1gK0jSZFOXXc7GpXa-48-48.png
+2022/05/13 18:48:59.410 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    33.5463ms|   match|[44m GET     [0m /static/data/new/labixiaoxin.jfif
+2022/05/13 18:48:59.415 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     7.9978ms|   match|[44m GET     [0m /static/data/new/logo.png
+2022/05/13 18:48:59.421 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    45.5446ms|   match|[44m GET     [0m /static/data/new/zhonghuaxiaozi.jfif
+2022/05/13 18:48:59.426 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    52.5439ms|   match|[44m GET     [0m /static/data/new/kenan.jfif
+2022/05/13 18:48:59.432 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    59.5445ms|   match|[44m GET     [0m /static/index/img/TB1Zslqh.D1gK0jSZFGXXbd3FXa-48-48.png
+2022/05/13 18:48:59.432 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.0014ms|   match|[44m GET     [0m /static/data/new/000.jpg
+2022/05/13 18:48:59.438 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    27.0003ms|   match|[44m GET     [0m /static/data/new/wangqiuwangzi.jfif
+2022/05/13 18:48:59.446 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    33.0038ms|   match|[44m GET     [0m /static/data/new/quanyecha.jfif
+2022/05/13 18:48:59.453 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    33.9985ms|   match|[44m GET     [0m /static/data/new/jinglingbaokemeng.jfif
+2022/05/13 18:48:59.453 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     6.9954ms|   match|[44m GET     [0m /static/data/new/meimei.png
+2022/05/13 18:48:59.460 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     9.9999ms|   match|[44m GET     [0m /static/data/new/OIP-C.jfif
+2022/05/13 18:48:59.467 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    22.9981ms|   match|[44m GET     [0m /static/data/new/shouhutianxin.jfif
+2022/05/13 18:48:59.470 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.9997ms|   match|[44m GET     [0m /static/data/new/jinglingbaokemeng1.jfif
+2022/05/13 18:48:59.476 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    32.0009ms|   match|[44m GET     [0m /static/data/new/borenzhuan.jfif
+2022/05/13 18:48:59.483 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    44.3643ms|   match|[44m GET     [0m /static/data/new/maohelaoshu.jfif
+2022/05/13 18:48:59.490 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    32.8778ms|   match|[44m GET     [0m /static/data/new/likeqin.jfif
+2022/05/13 18:48:59.496 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    31.4169ms|   match|[44m GET     [0m /static/index/img/index_top_0.png
+2022/05/13 18:48:59.501 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    28.7111ms|   match|[44m GET     [0m /static/data/new/quanyecha1.jpg
+2022/05/13 18:48:59.508 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    31.7089ms|   match|[44m GET     [0m /static/index/img/index_top_1.png
+2022/05/13 18:48:59.514 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    33.7118ms|   match|[44m GET     [0m /static/data/new/haizeiwang1.jfif
+2022/05/13 18:48:59.521 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    34.6464ms|   match|[44m GET     [0m /static/index/img/index_top_2.png
+2022/05/13 18:48:59.526 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    30.8332ms|   match|[44m GET     [0m /static/data/new/zhonghuaxiaozi1.jfif
+2022/05/13 18:48:59.531 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    31.6372ms|   match|[44m GET     [0m /static/index/img/index_top_3.png
+2022/05/13 18:48:59.538 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    31.7584ms|   match|[44m GET     [0m /static/data/new/567-1.jfif
+2022/05/13 18:48:59.542 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    24.5144ms|   match|[44m GET     [0m /static/index/img/index_top_4.png
+2022/05/13 18:48:59.548 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    28.9994ms|   match|[44m GET     [0m /static/data/new/canghaihengliu1.jfif
+2022/05/13 18:48:59.554 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    29.5223ms|   match|[44m GET     [0m /static/index/img/index_top_5.png
+2022/05/13 18:48:59.565 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    35.2647ms|   match|[44m GET     [0m /static/data/new/maohelaoshu1.jfif
+2022/05/13 18:48:59.567 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    12.8265ms|   match|[44m GET     [0m /static/data/new/wangqiuwangzi1.jfif
+2022/05/13 18:48:59.586 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    50.4898ms|   match|[44m GET     [0m /static/index/img/index_top_6.png
+2022/05/13 18:48:59.587 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    21.8982ms|   match|[44m GET     [0m /static/data/new/xingjibaobei1.jfif
+2022/05/13 18:48:59.601 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    61.4924ms|   match|[44m GET     [0m /static/data/new/labixiaoxin.jpg
+2022/05/13 18:48:59.608 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.0001ms|   match|[44m GET     [0m /static/data/new/29.png
+2022/05/13 18:48:59.613 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     68.698ms|   match|[44m GET     [0m /static/index/img/index_top_7.png
+2022/05/13 18:48:59.620 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    12.2471ms|   match|[44m GET     [0m /static/data/new/31.png
+2022/05/13 18:48:59.624 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    42.2476ms|   match|[44m GET     [0m /static/data/new/ashuai.jfif
+2022/05/13 18:48:59.631 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    59.6995ms|   match|[44m GET     [0m /static/data/new/28.png
+2022/05/13 18:48:59.638 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     34.243ms|   match|[44m GET     [0m /static/data/new/zhenhunjie.jfif
+2022/05/13 18:48:59.645 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    24.5407ms|   match|[44m GET     [0m /static/data/new/32.png
+2022/05/13 18:48:59.652 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    23.7887ms|   match|[44m GET     [0m /static/data/new/33.png
+2022/05/13 18:48:59.662 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    32.5187ms|   match|[44m GET     [0m /static/data/new/chaoshenxueyuan.jfif
+2022/05/13 18:49:00.773 [I] [app.go:214]  http server Running on http://:8098
+2022/05/13 18:49:07.261 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    23.4732ms|   match|[44m GET     [0m /show   r:/show
+2022/05/13 18:49:07.312 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    37.9122ms|   match|[44m GET     [0m /static/index/css/Page.chunk.css
+2022/05/13 18:49:07.313 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    38.2206ms|   match|[44m GET     [0m /static/index/css/show.css
+2022/05/13 18:49:07.321 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    26.6359ms|   match|[44m GET     [0m /static/index/js/layer/layer.js
+2022/05/13 18:49:07.331 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    36.5677ms|   match|[44m GET     [0m /static/index/js/jquery.danmu.min.js
+2022/05/13 18:49:07.502 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.7251ms|   match|[44m GET     [0m /static/index/img/YjA2ZThhNTlkYTdiMzRhYmY1ZTFjNDBhMDg3ODU1NGU=.png
+2022/05/13 18:49:07.510 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     3.9992ms|   match|[44m GET     [0m /static/index/img/TB1Kix4gFP7gK0jSZFjXXc5aXXa-24-24.svg
+2022/05/13 18:49:07.518 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     4.0085ms|   match|[44m GET     [0m /static/index/img/TB15Bl4gSf2gK0jSZFPXXXsopXa-24-24.svg
+2022/05/13 18:49:07.567 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.0023ms|   match|[44m GET     [0m /static/index/js/layer/theme/default/layer.css
+2022/05/13 18:49:07.711 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     8.8203ms|   match|[46m POST    [0m /comment/list   r:/comment/list
+2022/05/13 18:49:07.851 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     5.7908ms|   match|[44m GET     [0m /static/index/img/favicon.ico
+2022/05/13 18:49:26.320 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     22.549ms|   match|[44m GET     [0m /static/index/js/layer/theme/default/icon.png
+2022/05/13 18:50:22.029 [D] [router.go:969]  |      127.0.0.1|[42m 206 [0m|1m14.2990834s|   match|[44m GET     [0m /static/video/月半小夜曲.mp4
+2022/05/13 18:50:32.990 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    12.1471ms|   match|[44m GET     [0m /show   r:/show
+2022/05/13 18:50:33.211 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|      999.6µs|   match|[46m POST    [0m /comment/list   r:/comment/list
+2022/05/13 18:50:38.261 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.0393ms|   match|[44m GET     [0m /show   r:/show
+2022/05/13 18:50:38.485 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    15.1113ms|   match|[46m POST    [0m /comment/list   r:/comment/list
+2022/05/13 18:50:38.501 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.1586ms|   match|[44m GET     [0m /static/data/user/1.jpg
+2022/05/13 18:50:40.288 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     9.4551ms|   match|[44m GET     [0m /show   r:/show
+2022/05/13 18:50:40.305 [D] [router.go:969]  |      127.0.0.1|[42m 206 [0m|   1.8069627s|   match|[44m GET     [0m /static/video/《Welcome To New York》.mp4
+2022/05/13 18:50:40.437 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.0012ms|   match|[46m POST    [0m /comment/list   r:/comment/list
+2022/05/13 18:50:41.687 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    10.0902ms|   match|[44m GET     [0m /show   r:/show
+2022/05/13 18:50:41.727 [D] [router.go:969]  |      127.0.0.1|[42m 206 [0m|   1.2820054s|   match|[44m GET     [0m /static/video/《Love Story》.mp4
+2022/05/13 18:50:41.796 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     2.0711ms|   match|[46m POST    [0m /comment/list   r:/comment/list
+2022/05/13 18:50:43.229 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|    11.1169ms|   match|[44m GET     [0m /show   r:/show
+2022/05/13 18:50:43.265 [D] [router.go:969]  |      127.0.0.1|[42m 206 [0m|   1.4629938s|   match|[44m GET     [0m /static/video/《Look What You Made Me Do》.mp4
+2022/05/13 18:50:43.336 [D] [router.go:969]  |      127.0.0.1|[42m 200 [0m|     1.7723ms|   match|[46m POST    [0m /comment/list   r:/comment/list
+2022/05/13 18:51:12.065 [D] [router.go:969]  |      127.0.0.1|[42m 206 [0m|  25.3500377s|   match|[44m GET     [0m /static/video/《Welcome To New York》.mp4
